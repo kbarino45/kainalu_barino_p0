@@ -15,13 +15,13 @@ public class Account {
     }
 
     //Full-argument constructor
-    public Account(int accountID, String pw, String firstName, String lastName, double balance) {
-        this.accountID = accountID;
-        this.pw = pw;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.balance = balance;
-    }
+//    public Account(int accountID, String pw, String firstName, String lastName, double balance) {
+//        this.accountID = accountID;
+//        this.pw = pw;
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.balance = balance;
+//    }
 
     //ID-less constructor
     public Account(String pw, String firstName, String lastName, double balance) {
@@ -31,6 +31,7 @@ public class Account {
         this.balance = balance;
     }
 
+    //Getters and setters
     public int getAccountID() {
         return accountID;
     }
