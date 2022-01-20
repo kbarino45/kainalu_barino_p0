@@ -1,3 +1,9 @@
+/*****************************************************
+ * Banking App
+ * by kbarino
+ * 1/2022
+ * This banking app mimics the functionality of an ATM
+ *****************************************************/
 package dev.barino.app;
 
 import dev.barino.models.Account;
@@ -340,7 +346,7 @@ public class Start {
             if (user.getBalance() >= amount) {
 
                 //Amount must be positive
-                if (user.getBalance() > 0) {
+                if (amount > 0) {
                     user.setBalance(user.getBalance() - amount);
                     ar.updateAccount(user);
                 }

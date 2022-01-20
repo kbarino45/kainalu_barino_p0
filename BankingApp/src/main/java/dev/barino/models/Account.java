@@ -65,8 +65,6 @@ public class Account {
     }
 
     public double getBalance() {
-        DecimalFormat f = new DecimalFormat("###,###,##0.00");
-        this.balance = Double.parseDouble(f.format(this.balance));
         return this.balance;
     }
 
@@ -76,8 +74,7 @@ public class Account {
     }
 
     public void setBalance(double balance) {
-        DecimalFormat f = new DecimalFormat("###,###,##0.00");
-        this.balance = Double.parseDouble(f.format(balance));
+        this.balance = balance;
     }
 
     @Override
