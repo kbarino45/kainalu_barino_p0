@@ -8,12 +8,12 @@ For Project 0, you will be building a console-based application that will be pre
 
 ### User Stories
 As a user, I can:
-- [ ] register a new user account with the system (must be secured with a password)
-- [ ] login with my existing credentials
-- [ ] create at least one account
-- [ ] deposit funds into an account (use doubles, not ints)
-- [ ] withdraw funds from an account (no overdrafting!)
-- [ ] view the balance of my account(s) (all balance displays must be in proper currency format)
+- [X] register a new user account with the system (must be secured with a password)
+- [X] login with my existing credentials
+- [X] create at least one account
+- [X] deposit funds into an account (use doubles, not ints)
+- [X] withdraw funds from an account (no overdrafting!)
+- [X] view the balance of my account(s) (all balance displays must be in proper currency format)
 
 ### Suggested Bonus User Stories
 As a user I can:
@@ -22,51 +22,19 @@ As a user I can:
 - [ ] share a joint account with another user
 - [ ] transfer money between accounts
 
-## Course Registration Application Details 
-
-### User Stories
-
-As any kind of user, I can:
-- [ ] login with my existing credentials
-
-As a faculty member I can:
-- [ ] add new classes to the registration catalog
-- [ ] change the registration details for a class
-- [ ] remove a class from the registration catalog (this should unregister all registered students)
-
-As a student, I can:
-- [ ] register a new account with the system (must be secured with a password)
-- [ ] view classes available for registration
-- [ ] register for an open and available class
-- [ ] cancel my registration for a class (if within window)
-- [ ] view the classes that I have registered for
-
-## Custom Project Concept Details
-
-You are welcome to come up with your own project concept if you would like. The basic requirements of the application are as follows:
-- Persist data into a relational database
-- Allow users to interface (via the console) with an application that allows for them to create, read, update, and delete that persisted data
-- Complies with the minimum features (specified below)
-- Minimum number of user stories: 7
-
-Send your project concept descriptions to your trainer via Email and await concept approval. Additionally, please specify the following when writing up your pitch:
-- Application Name
-- High Level Description
-- User Story List
-
 ## Minimum Features
 
 All project concepts must display the following domain-independent features/requirements:
  
 - [ ] Use of custom data structures (do not use java.util Collection types!)
-- [ ] Basic validation of user input (e.g. no registration for classes outside of registration window, no negative deposits/withdrawals, no overdrafting, etc.) 
+- [X] Basic validation of user input (e.g. no registration for classes outside of registration window, no negative deposits/withdrawals, no overdrafting, etc.) 
 - [ ] Unit tests for all business-logic classes
-- [ ] All exceptions are properly caught and handled
-- [ ] Proper use of OOP principles
-- [ ] Documentation (all classes and methods have basic documentation)
-- [ ] Database is 3rd Normal Form Compliant
-- [ ] Referential integrity (e.g. if a class is removed from the catalog, no students should be registered for it)
-- [ ] Generation of basic design documents (e.g. relational diagram, class diagram, flows, etc.)
+- [X] All exceptions are properly caught and handled
+- [X] Proper use of OOP principles
+- [X] Documentation (all classes and methods have basic documentation)
+- [X] Database is 3rd Normal Form Compliant
+- [X] Referential integrity (e.g. if a class is removed from the catalog, no students should be registered for it)
+- [X] Generation of basic design documents (e.g. relational diagram, class diagram, flows, etc.)
 
 
 ## Tech Stack
