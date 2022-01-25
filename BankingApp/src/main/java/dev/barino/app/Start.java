@@ -2,14 +2,12 @@
  * Banking App
  * by kbarino
  * 1/2022
- * This banking app mimics the functionality of an ATM
  *****************************************************/
 package dev.barino.app;
 
 import dev.barino.models.Account;
 import dev.barino.repositories.AccountRepo;
 import dev.barino.repositories.AccountRepoDBImpl;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
